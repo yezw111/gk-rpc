@@ -9,12 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>gk-rpc-codec</artifactId>
+    <artifactId>gk-rpc-example</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
+            <groupId>com.smgeek</groupId>
+            <artifactId>gk-rpc-client</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.smgeek</groupId>
+            <artifactId>gk-rpc-server</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
